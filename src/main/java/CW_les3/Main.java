@@ -8,8 +8,8 @@ public class Main {
 
         MyArray.isRepeat = false;  // повторяющиеся значения
         MyArray.isShuffle = false;  // перемешивание
-        final int SIZE = 20000;  //Размер массива
-        Integer[] arr = MyArray.getArray(SIZE,2); // шаг не более 5
+        final int SIZE = 30;  //Размер массива
+        Integer[] arr = MyArray.getArray(SIZE,2); // шаг не более
 
 //        System.out.println(Arrays.toString(arr));  //вывод изначального массива
 
@@ -31,8 +31,8 @@ public class Main {
 
         System.out.println(Arrays.toString(arr));  //вывод массива после сортировки
 
-        System.out.println(BinarySearch.search(arr,30000 ));
-        System.out.println(InterpolationSearch.search(arr,30000 ));
+        System.out.println(BinarySearch.search(arr,12 ));
+//        System.out.println(InterpolationSearch.search(arr,30000 ));
 
 
     }

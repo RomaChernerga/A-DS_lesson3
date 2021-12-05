@@ -9,7 +9,7 @@ public class Main3 {
     public static void main(String[] args) {
 //        testStack();
 //        testQueue();
-        testDequeImpl();
+//        testDequeImpl();
     }
 
 //    private static void testStack(){
